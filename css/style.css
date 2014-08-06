@@ -91,20 +91,20 @@ h2{
 
 /* image */
 .image {
-    height: 130px;
-
+    height: 148px;
     overflow: hidden;
-    width: 130px;
+    width: 148px;
     cursor:pointer;
     margin: auto;
-    padding: 10px;
+    padding: 2px;
 }
 
 /* zoom in image */
 
 .zoomin img {
-  height: 100px;
-  width: 100px;
+  height: 138px;
+  width: 138px;
+
  
   -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
@@ -114,11 +114,13 @@ h2{
 }
  
 .zoomin img:hover {
-  width: 115px;
-  height: 115px;
+  width: 148px;
+  height: 148px;
   border:5px solid yellow;
 }
 
 
-
+.tname{
+	padding: 10px;
+}
 
